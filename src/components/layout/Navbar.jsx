@@ -85,7 +85,7 @@ const Navbar = () => {
           </div>
           <div
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-[#050038] text-base"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box  text-[#050038] text-base"
           >
             <div className="flex gap-1">
               <svg  xmlns="http://www.w3.org/2000/svg"  fill="none"  viewBox="0 0 24 24"  strokeWidth={1.5}  stroke="currentColor"  className="w-6 h-6 text-[#050038]">
