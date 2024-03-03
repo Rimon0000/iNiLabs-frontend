@@ -122,7 +122,7 @@ const HeroSection = () => {
       </div>
       <div className="max-w-[640px]">
         <img
-          className="px-4 h-[462px]"
+          className="px-4 h-[462px] rounded-lg"
           src="https://i.ibb.co/drLB5ph/miro-alternatives.png"
           alt=""
         />
