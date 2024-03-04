@@ -1,6 +1,7 @@
 import FeatureSection from "./FeatureSection";
 import HeroSection from "./HeroSection";
 import TrustedSection from "./TrustedSection";
+import WorkTogetherSection from "./WorkTogetherSection";
 
 const Home = () =>{
     return (
@@ -8,6 +9,7 @@ const Home = () =>{
             <HeroSection></HeroSection>
             <TrustedSection></TrustedSection>
             <FeatureSection></FeatureSection>
+            <WorkTogetherSection></WorkTogetherSection>
         </div>
     )
 }
