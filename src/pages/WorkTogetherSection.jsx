@@ -4,13 +4,13 @@ const WorkTogetherSection = () => {
       <div className="my-20 px-2 max-w-[1140px] max-h-[535px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3">
         <div className="flex flex-col place-content-center">
           <div>
-            <h1 className="text-[#050038] font-semibold text-5xl mb-5">
+            <h1 className="text-[#050038] font-bold text-5xl mb-5">
               Work together, wherever you work
             </h1>
             <p className="text-lg text-[#050038] opacity-60 max-w-[42ch]">
-              In the office, remote, or a mix of the two, with Miro, your team
-              can connect, collaborate, and co-create in one space no matter
-              where you are.
+              Whether you want to edit your Google Docs, resolve Jira issues, 
+              or collaborate over Zoom, Miro has 100+ integrations with tools 
+              you already use and love.
             </p>
             <button className="mt-10 flex gap-2 items-center justify-center text-[#4262FF] text-lg underline">
               Learn more
