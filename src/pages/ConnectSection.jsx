@@ -2,7 +2,7 @@ const ConnectSection = () => {
     return (
         <div className=" relative my-20 px-2 max-w-[1140px] lg:max-h-[497px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
             <div>
-                <img className="max-h-[490px]" src="https://i.ibb.co/nPd1mbD/M3-integrations-all-integrations-png.png" alt="" />
+                <img className="lg:max-h-[490px]" src="https://i.ibb.co/nPd1mbD/M3-integrations-all-integrations-png.png" alt="" />
             </div>
             <div className="flex flex-col  place-content-center">
                 <div className="lg:absolute lg:right-0">

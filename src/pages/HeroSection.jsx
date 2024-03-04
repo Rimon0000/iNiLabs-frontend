@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="my-10 max-w-[1080px] lg:max-h-[469px] gap-14 grid md:grid-cols-2 lg:grid-cols-2 mx-auto">
+    <div className="my-10 max-w-[1140px] gap-14 lg:max-h-[469px] grid md:grid-cols-2 lg:grid-cols-2 mx-auto">
       <div className="max-w-[440px] lg:max-h-[469px]">
         <h1 className="text-5xl font-bold text-[#050038]">
           Take ideas from better to best
@@ -114,16 +114,16 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="flex mx-auto mb-5 gap-4 mt-5">
-            <img  className="w-[19px] h-[32px]"  src="https://i.ibb.co/XLs9rQg/g.webp"  alt=""/>
-            <img  className="w-[50px] h-[32px]"  src="https://i.ibb.co/MfY5fRr/getapp.jpg"  alt=""/>
-            <img  className="w-[59px] h-[32px]"  src="https://i.ibb.co/4YDjKn6/capterra.jpg"  alt=""/>
+            <img src="https://i.ibb.co/KmVyp9x/Frame.png" alt="" />
+            <img src="https://i.ibb.co/Yf6jSr0/Frame-1.png" alt="" />
+            <img src="https://i.ibb.co/NVg034F/Frame-2.png" alt="" />
           </div>
         </div>
       </div>
-      <div className="max-w-[640px]">
+      <div className="max-w-[640px] lg:max-h-[469px]">
         <img
-          className="px-4 h-[462px] rounded-lg"
-          src="https://i.ibb.co/drLB5ph/miro-alternatives.png"
+          className=" rounded-lg lg:h-[462px]"
+          src="https://i.ibb.co/bgm9CSm/headerimage-without-text-png.png"
           alt=""
         />
       </div>

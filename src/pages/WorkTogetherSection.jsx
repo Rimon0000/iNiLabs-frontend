@@ -1,7 +1,7 @@
 const WorkTogetherSection = () => {
   return (
-    <div className="relative">
-      <div className="my-20 px-2 max-w-[1140px] max-h-[535px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3">
+    <div>
+      <div className="my-20 px-2 max-w-[1140px] lg:max-h-[535px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
         <div className="flex flex-col place-content-center">
           <div>
             <h1 className="text-[#050038] font-bold text-5xl mb-5">
@@ -34,53 +34,11 @@ const WorkTogetherSection = () => {
         </div>
 
         <div>
-          <div className="lg:h-[530px] grid grid-cols-3 gap-4">
-            <div className="col-span-1 flex flex-col  place-content-center">
-              <div>
-                <img
-                  className="rounded-lg lg:h-[335px] w-full "
-                  src="https://i.ibb.co/sHwJBcg/working.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="col-span-1 flex flex-col  place-content-center lg:mb-16">
-              <div>
-                <img
-                  className="rounded-lg lg:h-[335px] w-full "
-                  src="https://i.ibb.co/VYjpktH/phone.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="col-span-1 flex flex-col  place-content-center">
-              <div>
-                <img
-                  className="rounded-lg lg:h-[335px] w-full "
-                  src="https://i.ibb.co/zPHMPkg/tab.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
+          <img className="max-h-[530px]" src="https://i.ibb.co/Jy6Mv8n/hybridwork-png.png" alt="" />
         </div>
       </div>
 
-      <div className="flex absolute lg:bottom-[80px] md:bottom-[20px] bottom-[-7%] right-[43%] lg:right-[26%] md:right-[21%] rounded-full">
-        <img
-          className="w-[30px] rounded-full border-2 border-blue-500"
-          src="https://i.ibb.co/D5ns9Yc/women.jpg"
-          alt=""
-        />
-        <img
-          className="w-[30px] rounded-full border-2 border-blue-500 ml-[-10px]"
-          src="https://i.ibb.co/pjmnHdP/men.jpg"
-          alt=""
-        />
-        <p className="border-2 border-blue-500 rounded-full font-bold text-sm flex items-center ml-[-5px]">
-          +98
-        </p>
-      </div>
+      
     </div>
   );
 };
