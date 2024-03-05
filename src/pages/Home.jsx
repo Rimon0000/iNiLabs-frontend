@@ -1,4 +1,6 @@
+import BuiltWork from "./BuiltWork";
 import ConnectSection from "./ConnectSection";
+import DesignSection from "./DesignSection";
 import FeatureSection from "./FeatureSection";
 import HeroSection from "./HeroSection";
 import TrustedSection from "./TrustedSection";
@@ -12,6 +14,8 @@ const Home = () =>{
             <FeatureSection></FeatureSection>
             <WorkTogetherSection></WorkTogetherSection>
             <ConnectSection></ConnectSection>
+            <DesignSection></DesignSection>
+            <BuiltWork></BuiltWork>
         </div>
     )
 }
