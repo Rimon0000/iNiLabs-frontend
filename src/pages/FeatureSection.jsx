@@ -2,10 +2,10 @@ const FeatureSection = () => {
   return (
     <div className="my-20 max-w-[1140px] mx-auto">
       <div className="text-center relative mt-[170px]">
-        <h1 className="text-5xl text-[#050038] font-bold  text-center flex place-content-center">
+        <h1 className="text-5xl text-[#050038] font-bold text-center">
           Collaborate without <br /> constraints
         </h1>
-        <p className="absolute uppercase bg-[#FFD02F] transform rotate-[10deg] max-w-[172px] max-h-[23px]  text-sm top-[-35%] left-[61%]">
+        <p className="absolute uppercase bg-[#FFD02F] transform rotate-[10deg] w-[172px] h-[23px]  text-xs font-bold top-[-40%] left-[61%] rounded-lg flex items-center justify-center">
           Your idea starts here
         </p>
       </div>
@@ -26,7 +26,7 @@ const FeatureSection = () => {
           <h1 className="text-[#050038] text-2xl font-bold mb-3">
             Easy integrations
           </h1>
-          <p className="text-lg text-[#050038] opacity-60">
+          <p className="text-lg text-[#050038] opacity-60 max-w-[28ch]">
             Miro has 100+ powerful integrations with tools you already use like
             G Suite, Slack, and Jira, so your workflow is seamless. View the
             full list in our Marketplace .
@@ -43,7 +43,7 @@ const FeatureSection = () => {
           </p>
         </div>
       </div>
-      <button className="mt-10 flex  mx-auto btn bg-[#4262FF] border rounded-3xl text-white">
+      <button className="mt-10 text-lg flex mx-auto py-[10px] px-[28px] bg-[#4262FF] border border-[#4262FF] rounded-3xl text-white">
           Sign up free →
         </button>
     </div>

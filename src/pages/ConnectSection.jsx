@@ -1,6 +1,6 @@
 const ConnectSection = () => {
     return (
-        <div className=" relative my-20 px-2 max-w-[1140px] lg:max-h-[497px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+        <div className="relative my-20 px-2 max-w-[1140px] lg:max-h-[497px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
             <div>
                 <img className="lg:max-h-[490px]" src="https://i.ibb.co/nPd1mbD/M3-integrations-all-integrations-png.png" alt="" />
             </div>
@@ -16,23 +16,9 @@ const ConnectSection = () => {
                             or collaborate over Zoom, Miro has 100+ integrations with tools 
                             you already use and love.
                         </p>
-                        <button className="mt-12 flex gap-2 items-center justify-center text-[#4262FF] text-lg underline">
-                          Learn more
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="w-6 h-6"
-                          >
-                            {" "}
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                            />
-                          </svg>
+                        <button className="mt-10 flex gap-2 text-[#4262FF] text-lg ">
+                          <span className="border-b border-[#4262FF] mb-1 w-[104.72px]">Learn more</span>
+                          <span>→</span>
                         </button>
                       </div>
                     </div>

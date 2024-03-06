@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="my-10 max-w-[1140px] gap-14 lg:max-h-[469px] grid md:grid-cols-2 lg:grid-cols-2 mx-auto">
+    <div className="my-10 mt-[60px] max-w-[1140px] lg:max-h-[469px] md:flex lg:flex justify-between gap-[60px] mx-auto">
       <div className="max-w-[440px] lg:max-h-[469px]">
         <h1 className="text-5xl font-bold text-[#050038]">
           Take ideas from better to best
@@ -17,10 +17,10 @@ const HeroSection = () => {
         <button className="my-2 w-full btn bg-[#4262FF] border rounded-3xl text-white px-5 py-4">
           Sign up free →
         </button>
-        <p className="text-[#050038] text-sm mt-2">
+        <p className="text-[#050038] text-sm mt-1">
           Collaborate with your team within minutes
         </p>
-        <div className="bg-[#F5F5F7] p-[14px] max-w-[350px] h-[60px] mt-12 rounded-lg flex gap-4 items-center">
+        <div className="bg-[#F5F5F7] p-[14px] max-w-[350px] h-[60px] mt-12 rounded-lg flex gap-4 items-center mb-4">
           <div>
             <div className="flex">
               <svg

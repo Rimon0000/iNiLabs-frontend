@@ -27,7 +27,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="max-w-[1380px] max-h-[90px] navbar flex justify-between">
+    <div className="max-w-[1380px] h-[90px] navbar flex justify-between border-b">
       <div>
         <div className="flex items-center justify-center">
           <div className="dropdown">
@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="">
+      <div>
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
