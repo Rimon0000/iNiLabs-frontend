@@ -1,3 +1,4 @@
+import BestTeam from "./BestTeam";
 import BuiltTeam from "./BuiltTeam";
 import BuiltWork from "./BuiltWork";
 import ConnectSection from "./ConnectSection";
@@ -18,6 +19,7 @@ const Home = () =>{
             <DesignSection></DesignSection>
             <BuiltWork></BuiltWork>
             <BuiltTeam></BuiltTeam>
+            <BestTeam></BestTeam>
         </div>
     )
 }

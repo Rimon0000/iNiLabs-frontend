@@ -14,23 +14,8 @@ const HeroSection = () => {
           placeholder="Enter your work email"
           className=" text-lg text-[#5F5C80] rounded-3xl border-[#9B99AF] input input-bordered w-full block"
         />
-        <button className="my-2 w-full flex place-content-center btn bg-[#4262FF] border rounded-3xl text-white px-5 py-4">
-          Sign up free
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            {" "}
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-            />
-          </svg>
+        <button className="my-2 w-full btn bg-[#4262FF] border rounded-3xl text-white px-5 py-4">
+          Sign up free →
         </button>
         <p className="text-[#050038] text-sm mt-2">
           Collaborate with your team within minutes

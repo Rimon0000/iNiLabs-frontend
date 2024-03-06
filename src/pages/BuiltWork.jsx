@@ -69,11 +69,8 @@ const BuiltWork = () => {
           <p className="text-[#050038] opacity-70 text-lg my-10">Unleash creative ideas and build on them with the help of sticky notes, 
             images, mind maps, videos, drawing capabilities — the list goes on. 
           </p>
-          <button className="flex gap-2 items-center justify-center text-[#4262FF] text-lg">
-            Learn more
-            <svg  xmlns="http://www.w3.org/2000/svg"  fill="none"  viewBox="0 0 24 24"  strokeWidth={1.5}  stroke="currentColor"  className="w-6 h-6"
-            >{" "}<path  strokeLinecap="round"  strokeLinejoin="round"  d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"/>
-            </svg>
+          <button className="flex items-center justify-center text-[#4262FF] text-lg">
+            Learn more →
           </button>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-2">
