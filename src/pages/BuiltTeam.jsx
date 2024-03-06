@@ -66,60 +66,21 @@ const BuiltTeam = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
         <div className="p-4 col-span-1 md:col-span-1 lg:col-span-1">
           <div>
-            <div className="flex gap-3 items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-[24px] h-[25px] text-[#050038]"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m4.5 12.75 6 6 9-13.5"
-                />
-              </svg>
+            <div className="flex gap-5 items-baseline mx-auto">
+              <img src="https://i.ibb.co/yYjYXBy/Vector-8.png" alt="" />
               <p className="text-lg text-[#050038] opacity-60">
                 Build low-fi wireframes
               </p>
             </div>
-            <div className="flex gap-3 items-center my-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-[24px] h-[25px] text-[#050038]"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m4.5 12.75 6 6 9-13.5"
-                />
-              </svg>
+            <div className="flex gap-5 items-baseline my-5">
+              <img src="https://i.ibb.co/yYjYXBy/Vector-8.png" alt="" />
               <p className="text-lg text-[#050038] opacity-60">
                 Involve stakeholders in the design process
               </p>
             </div>
-            <div className="flex gap-3 items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-[24px] h-[25px] text-[#050038]"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m4.5 12.75 6 6 9-13.5"
-                />
-              </svg>
-              <p className="text-lg text-[#050038] opacity-60">
+            <div className="flex gap-5 items-baseline">
+              <img src="https://i.ibb.co/yYjYXBy/Vector-8.png" alt="" />
+              <p className="text-lg text-[#050038] opacity-60 max-w-[20ch]">
                 Run engaging design workshops
               </p>
             </div>
@@ -133,7 +94,11 @@ const BuiltTeam = () => {
             </h1>
             <div className="flex gap-9 mt-5">
               <img src="https://i.ibb.co/hdvmmkY/Vector.png" alt="" />
-              <img className="w-[26px] h-[26px]" src="https://i.ibb.co/GxLPmcZ/adobe-xd-icon-256x256-ounqix35.png" alt="" />
+              <img
+                className="w-[26px] h-[26px]"
+                src="https://i.ibb.co/GxLPmcZ/adobe-xd-icon-256x256-ounqix35.png"
+                alt=""
+              />
               <img src="https://i.ibb.co/55WGsyw/Vector-2.png" alt="" />
               <img src="https://i.ibb.co/LzzbgKq/Vector-3.png" alt="" />
             </div>
