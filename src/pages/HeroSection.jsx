@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <div className="my-10 mt-[60px] max-w-[1140px] lg:max-h-[469px] md:flex lg:flex justify-between gap-[60px] mx-auto">
-      <div className="max-w-[440px] lg:max-h-[469px]">
+      <div className="max-w-[440px] lg:max-h-[469px] pl-1">
         <h1 className="text-5xl font-bold text-[#050038]">
           Take ideas from better to best
         </h1>

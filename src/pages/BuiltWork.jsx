@@ -26,12 +26,12 @@ const BuiltWork = () => {
   );
 
   return (
-    <div className="my-20 max-w-[1120px] mx-auto px-[30px]">
+    <div className="my-20 max-w-[1120px] mx-auto p-7">
       <h1 className="text-[#050038] text-5xl font-bold">
         Built for the way you work
       </h1>
 
-      <div className="my-5 max-w-[1060px]">
+      <div className="my-5 max-w-[1060px] mx-auto">
         <div className="lg:flex items-center justify-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -63,8 +63,8 @@ const BuiltWork = () => {
         </ul>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
-        <div className="p-4 col-span-1 md:col-span-1 lg:col-span-1">
+      <div className="max-w-[1060px] mx-auto lg:flex md:flex justify-between">
+        <div className="p-2 w-[360px]">
           <h1 className="text-[#050038] text-lg mt-5">Brainstorming</h1>
           <p className="text-[#050038] opacity-70 text-lg my-10">Unleash creative ideas and build on them with the help of sticky notes, 
             images, mind maps, videos, drawing capabilities — the list goes on. 
@@ -73,7 +73,7 @@ const BuiltWork = () => {
             Learn more →
           </button>
         </div>
-        <div className="col-span-1 md:col-span-2 lg:col-span-2">
+        <div className="max-w-[700px]">
           <img src="https://i.ibb.co/5GLRscd/Brainstormwithoutshadow-jpg.png" alt="" />
         </div>
       </div>

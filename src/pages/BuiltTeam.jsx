@@ -26,12 +26,12 @@ const BuiltTeam = () => {
   );
 
   return (
-    <div className="my-20 max-w-[1120px] mx-auto px-[30px]">
+    <div className="my-20 max-w-[1120px] mx-auto p-7">
       <h1 className="text-[#050038] text-5xl font-bold">
         Built for all kinds of teams
       </h1>
 
-      <div className="my-5 max-w-[1060px]">
+      <div className="my-5 max-w-[1060px] mx-auto">
         <div className="lg:flex items-center justify-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -58,13 +58,13 @@ const BuiltTeam = () => {
             </ul>
           </div>
         </div>
-        <ul className="menu menu-horizontal text-sm hidden lg:flex justify-between text-[#050038]">
+        <ul className="menu menu-horizontal text-sm hidden lg:flex gap-4 text-[#050038]">
           {navOptions}
         </ul>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
-        <div className="p-4 col-span-1 md:col-span-1 lg:col-span-1">
+      <div className="max-w-[1060px] lg:max-h-[518px] mx-auto lg:flex md:flex justify-between">
+        <div className="p-2 w-[360px]">
           <div>
             <div className="flex gap-5 items-baseline mx-auto">
               <img src="https://i.ibb.co/yYjYXBy/Vector-8.png" alt="" />
@@ -74,7 +74,7 @@ const BuiltTeam = () => {
             </div>
             <div className="flex gap-5 items-baseline my-5">
               <img src="https://i.ibb.co/yYjYXBy/Vector-8.png" alt="" />
-              <p className="text-lg text-[#050038] opacity-60">
+              <p className="text-lg text-[#050038] max-w-[21ch] opacity-60">
                 Involve stakeholders in the design process
               </p>
             </div>
@@ -105,7 +105,7 @@ const BuiltTeam = () => {
           </div>
         </div>
 
-        <div className="col-span-1 md:col-span-2 lg:col-span-2">
+        <div className="max-w-[700px] lg:max-h-[517px]">
           <img
             src="https://i.ibb.co/88rKWc2/uxdesignwithoutshadow-jpg.png"
             alt=""

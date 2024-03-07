@@ -44,7 +44,7 @@ const BestTeam = () => {
         </div>
         <div className=" p-5 h-[460px]">
           <img className="text-[#050038] mt-1" src="https://i.ibb.co/zbfqtHh/Vector-6.png" alt=""/>
-          <p className="my-8 text-[#050038] opacity-60 text-lg max-w-[27ch]">
+          <p className="my-8 text-[#050038] opacity-60 text-lg lg:max-w-[27ch]">
             “As we used Miro we moved from skepticism to belief to innovation, 
             and now we have a tool that’s at the core of what we do and will continue
             to extend into the future.”
